@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="my.stylesheet.xsl"?><NewDataSet>
+  <xs:schema xmlns:msdata="urn:schemas-microsoft-com:xml-m" xmlns:xs="http://www.w3.org/2001/XMLSchema" id="NewDataSet">
+    <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="NewDataSet">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element minOccurs="0" name="STARTNAME" type="xs::string"/>
+                <xs:element minOccurs="0" name="STARTTIME" type="xs::string"/>
+                <xs:element minOccurs="0" name="TARGET" type="xs::string"/>
+                <xs:element minOccurs="0" name="ID" type="xs::string"/>
+                <xs:element minOccurs="0" name="RA" type="xs::string"/>
+                <xs:element minOccurs="0" name="ANGLE" type="xs::string"/>
+                <xs:element minOccurs="0" name="REPEAT" type="xs::string"/>
+                <xs:element minOccurs="0" name="FRAME" type="xs::string"/>
+                <xs:element minOccurs="0" name="FILTER" type="xs::string"/>
+                <xs:element minOccurs="0" name="EXPOSURE" type="xs::string"/>
+                <xs:element minOccurs="0" name="BINNING" type="xs::string"/>
+                <xs:element minOccurs="0" name="COUNT" type="xs::string"/>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <STARTDATE>03/30/2015</STARTDATE>
+    <STARTTIME>23:10</STARTTIME>
+    <TARGET>3</TARGET>
+    <ID>M110</ID>
+    <RA>0.67280600</RA>
+    <DC>41.68527800</DC>
+    <ANGLE>0.0</ANGLE>
+    <REPEAT>1</REPEAT>
+    <FRAME>2</FRAME>
+    <FILTER>G</FILTER>
+    <EXPOSURE>600</EXPOSURE>
+    <BINNING>2</BINNING>
+    <COUNT>2</COUNT>
+  </Table1>
+</NewDataSet>
